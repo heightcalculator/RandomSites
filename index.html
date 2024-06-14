@@ -17,11 +17,6 @@
         "sundial.aarushmagic.com/make/two",
         "url.aarushmagic.com/tagqrcode/camera.html"
     ];
-    var randomSite = function(){
-        var randNum = Math.floor(Math.random() * websiteLinks.length);
-        window.location.href = "https://" + websiteLinks[randNum];
-    };
-    window.onLoad = function(){
-        randomSite();
-    };
+    var randNum = Math.floor(Math.random() * websiteLinks.length);
+    window.location.href = "https://" + websiteLinks[randNum];
 </script>
