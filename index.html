@@ -1,0 +1,27 @@
+<script>
+    var websiteLinks = [
+        "www.aarushmagic.com",
+        "aarush.aarushmagic.com",
+        "app.aarushmagic.com",
+        "chat.aarushmagic.com",
+        "chemistry.aarushmagic.com",
+        "dhsastronomy.aarushmagic.com",
+        "elementle.aarushmagic.com",
+        "fonts.aarushmagic.com",
+        "height.aarushmagic.com",
+        "morse.aarushmagic.com",
+        "photos.aarushmagic.com/highschool",
+        "planisphere.aarushmagic.com",
+        "search.aarushmagic.com",
+        "sundial.aarushmagic.com",
+        "sundial.aarushmagic.com/make/two",
+        "url.aarushmagic.com/tagqrcode/camera.html"
+    ];
+    var randomSite = function(){
+        var randNum = Math.floor(Math.random() * websiteLinks.length);
+        window.location.href = "https://" + websiteLinks[randNum];
+    };
+    window.onLoad = function(){
+        randomSite();
+    };
+</script>
